@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+body{
+    background-color:white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-weight: lighter;
+    
+}
+body{
+    font-size: 12px;
+}
+article main div:hover{
+    box-shadow: 1px 2px 2px 2px lightgray;
+    cursor: pointer;
+    border-radius: 20%;
+}
+main{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    
+}
+main div{
+    margin: 0 1rem;
+}
+img{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0%;
+}
+.Yandex{
+    margin:5%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+
+}
+.all{
+    display: flex;
+    align-items: center;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1%;
+}
+.search div{
+    display: flex;
+    align-items: center;
+}
+.search .Yandex{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+.search .all:hover{
+    box-shadow: 1px 2px 2px 2px yellow;
+}
+input[type='text']{
+    width: 90%;
+    border: none;
+    outline: none;
+    height: 2rem;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+.icon{
+    height: 2rem;
+    width: 2rem;
+    padding: 5px;
+}
+.all{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid yellow;
+    width: 65%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 1rem;
+}
+.all img{
+    height:40px;
+    width: 40px;
+}
+.all img:hover{
+    box-shadow: 1px 2px 2px 2px yellow;
+    cursor: pointer;
+}
+.all button{
+    width: 4rem;
+    height: 3rem;
+    font-size: 15px;
+    background-color: yellow;
+    border: none;
+}
+.all button:hover{
+    box-shadow: 1px 2px 2px 2px yellow;
+    cursor: pointer;
+    border-radius: 20%;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14rem;
+    font-size: 1rem;
+    
+}
+footer div img{
+    height: 48px;
+    width: 48px;
+}
+footer div img:hover{
+    box-shadow: 1px 2px 2px 2px lightgray;
+    cursor: pointer;
+    border-radius: 20%;
+}
+footer div{
+    margin: 0 1rem;
+}
+img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0%;
+}
+footer ul{
+    list-style: none;
+
+}
+.bottom-menu{
+    display: flex;
+    justify-content: center;
+    padding: 0.8rem;
+    margin-top: 1%;
+    font-size: 1rem;
+}
+.bottom-menu{
+    display: flex;
+    justify-content: center;
+}
+.bottom-menu div ul{
+    display: flex;
+    padding: 0.6rem 0;
+
+}
+.bottom-menu div ul li{
+    padding: 0 0.6rem;
+}
+.underline:hover{
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
